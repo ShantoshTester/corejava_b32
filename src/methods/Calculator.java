@@ -12,6 +12,13 @@ public class Calculator {
 		System.out.println("Sum of given numbers : " + sum);
 	}
 	
+	public static void calSum(int num1, int num2, int num3) {
+		int sum = num1 + num2;
+		System.out.println("Sum of given numbers : " + sum);
+	}
+	
+	
+	
 	public static void calMul(int num1, int num2) {
 		int res = num1 * num2;
 		System.out.println("Multiplation of given numbers : " + res);	
@@ -26,6 +33,7 @@ public class Calculator {
 	public static void main(String[] args) 
 	{
 		Calculator.calSum(100, 200);
+		Calculator.calSum(10, 10, 10);
 		Calculator.calSub(50, 25);
 		Calculator.calMul(10, 30);
 		Calculator.calDiv(100, 2);
