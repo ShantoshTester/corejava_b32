@@ -6,6 +6,11 @@ public class CalculatorNs {
 		int sub = num1 - num2;
 		System.out.println("Sub of given numbers : " + sub);
 	}
+	
+	public void calSum(int num1, int num2, int num3) {
+		int sum = num1 + num2 + num3;
+		System.out.println("Sum of given numbers : " + sum);
+	}
 
 	public void calSum(int num1, int num2) {
 		int sum = num1 + num2;
@@ -31,12 +36,14 @@ public class CalculatorNs {
 		calci.calSub(50, 25);
 		calci.calMul(10, 30);
 		calci.calDiv(100, 2);
+		calci.calSum(10, 10, 10);
 		
 		CalculatorNs calci1 = new CalculatorNs();
 		calci1.calSum(100, 200);
 		calci1.calSub(50, 25);
 		calci1.calMul(10, 30);
 		calci1.calDiv(100, 2);
+	
 		
 	}
 
